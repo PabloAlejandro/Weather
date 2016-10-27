@@ -34,3 +34,6 @@ I have setup assets catalogues for the icons of both targets. This way we can cu
 Since there wasn't any request on designs, I haven't focused on the design, so the app simply shows few labels and other objects with no design or style guide (other that iOS style guide).
 
 However, there was a design request, which was to have an specific schemme color for each country, so what I've done is to set a different tint color (refer to `AppDelegate` to see the code) for each country.
+
+### Unit Tests
+I have added Unit Tests for the most critical classes of the app, such us the network API and History class. However, since I have used VIPER for the screens implementations, it would be really easy to test each individual submodule of VIPER modules in order to test all the logic of the app.
